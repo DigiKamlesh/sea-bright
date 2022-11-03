@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Sea Bright - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2022-11-03T04:26:41.361Z</entry>
+<entry key="groupId">com.adobe.aem.bright</entry>
+<entry key="name">aem-guides-bright.all</entry>
+<entry key="description">All content package for Sea Bright</entry>
+<entry key="artifactId">aem-guides-bright.all</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobe.aem.bright</entry>
+</properties>

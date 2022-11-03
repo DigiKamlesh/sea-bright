@@ -1,0 +1,8 @@
+org\apache\sling\scripting\sightly\apps\bright\components\page\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\bright\components\xfpage\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\bright\components\page\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\bright\components\xfpage\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\bright\components\banner\banner__002e__html.class
+org\apache\sling\scripting\sightly\apps\bright\components\cards\cards__002e__html.class
+org\apache\sling\scripting\sightly\apps\bright\components\helloworld\helloworld__002e__html.class
+org\apache\sling\scripting\sightly\apps\bright\components\xfpage\content__002e__html.class

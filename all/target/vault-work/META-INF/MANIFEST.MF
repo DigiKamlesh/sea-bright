@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Sea Bright - All
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.adobe.aem.bright:aem-guides-bright.all:0.0.1-SNA
+ PSHOT
+Content-Package-Description: All content package for Sea Bright
+Content-Package-Roots: /apps/bright-packages,/apps/bright-vendor-package
+ s
+

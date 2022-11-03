@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobe.aem.guides.bright.core.servlets.DemoDefaultResourceServelet">
+  <property name="service.description" type="String" value="DemoDefaultResourceServelet"/>
+  <properties entry="sling.core.servletName=Demo Default Resource Servelet "/>
+  <properties entry="sling.servlet.methods=GET"/>
+  <properties entry="sling.servlet.resourceTypes=sling/servlet/default"/>
+  <properties entry="sling.servlet.selectors=default"/>
+  <properties entry="sling.servlet.extensions=html"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <implementation class="com.adobe.aem.guides.bright.core.servlets.DemoDefaultResourceServelet"/>
+</scr:component>

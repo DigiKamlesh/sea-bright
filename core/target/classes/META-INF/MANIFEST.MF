@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Bundle-Category: Sea Bright
+Bundle-Description: Core bundle for Sea Bright
+Bundle-ManifestVersion: 2
+Bundle-Name: Sea Bright - Core
+Bundle-SymbolicName: aem-guides-bright.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Export-Package: com.adobe.aem.guides.bright.core.filters;version="1.0"
+ ;uses:="javax.servlet",com.adobe.aem.guides.bright.core.listeners;ver
+ sion="1.0";uses:="org.apache.sling.api.resource.observation",com.adob
+ e.aem.guides.bright.core.models;version="1.0";uses:="com.adobe.cq.wcm
+ .core.components.models,javax.annotation,org.apache.sling.api.resourc
+ e,org.apache.sling.models.annotations,org.apache.sling.models.annotat
+ ions.injectorspecific",com.adobe.aem.guides.bright.core.schedulers;ve
+ rsion="1.0",com.adobe.aem.guides.bright.core.servlets;version="1.0";u
+ ses:="javax.servlet,org.apache.sling.api,org.apache.sling.api.servlet
+ s"
+Import-Package: javax.annotation;version="0.0.0",com.adobe.aem.guides.
+ bright.core.filters;version="[1.0,2)",com.adobe.aem.guides.bright.cor
+ e.listeners;version="[1.0,2)",com.adobe.aem.guides.bright.core.schedu
+ lers;version="[1.0,2)",com.adobe.aem.guides.bright.core.servlets;vers
+ ion="[1.0,2)",com.adobe.cq.wcm.core.components.models;version="[12.23
+ ,13)",com.day.cq.wcm.api;version="[1.29,2)",javax.servlet;version="[3
+ .1,4)",org.apache.sling.api;version="[2.3,3)",org.apache.sling.api.re
+ quest;version="[2.4,3)",org.apache.sling.api.resource;version="[2.12,
+ 3)",org.apache.sling.api.resource.observation;version="[1.2,2)",org.a
+ pache.sling.api.servlets;version="[2.3,3)",org.apache.sling.models.an
+ notations;version="[1.5,2)",org.apache.sling.models.annotations.injec
+ torspecific;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.adobe.aem.guides.bright.core.filters.L
+ oggingFilter.xml,OSGI-INF/com.adobe.aem.guides.bright.core.listeners.
+ SimpleResourceListener.xml,OSGI-INF/com.adobe.aem.guides.bright.core.
+ schedulers.SimpleScheduledTask.xml,OSGI-INF/com.adobe.aem.guides.brig
+ ht.core.servlets.DemoDefaultResourceServelet.xml,OSGI-INF/com.adobe.a
+ em.guides.bright.core.servlets.SimpleServlet.xml
+Sling-Model-Classes: com.adobe.aem.guides.bright.core.models.Banner,co
+ m.adobe.aem.guides.bright.core.models.Cards,com.adobe.aem.guides.brig
+ ht.core.models.HelloWorldModel
+
