@@ -38,7 +38,7 @@ Object _global_cards = null;
 Object _global_template = null;
 _global_cards = renderContext.call("use", com.adobe.aem.guides.bright.core.models.Cards.class.getName(), obj());
 _global_template = renderContext.call("use", "core/wcm/components/commons/v1/templates.html", obj());
-out.write("\n<div class=\"cardsDesign\">\n  <div class=\"cards-left\">");
+out.write("\r\n<div class=\"cardsDesign\">\r\n  <div class=\"cards-left\">");
 {
     Object var_testvariable0 = renderContext.getObjectModel().resolveProperty(_global_cards, "cardsImage");
     if (renderContext.getObjectModel().toBoolean(var_testvariable0)) {
@@ -66,7 +66,7 @@ out.write("\n<div class=\"cardsDesign\">\n  <div class=\"cards-left\">");
         out.write(" alt=\"cards-img\"/>");
     }
 }
-out.write("</div>\n  <div class=\"cards-right\">\n    <div class=\"cards-info\">\n      ");
+out.write("</div>\r\n  <div class=\"cards-right\">\r\n    <div class=\"cards-info\">\r\n      ");
 {
     Object var_testvariable5 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_cards, "cardsTitle"), "html");
     if (renderContext.getObjectModel().toBoolean(var_testvariable5)) {
@@ -78,7 +78,7 @@ out.write("</div>\n  <div class=\"cards-right\">\n    <div class=\"cards-info\">
         out.write("</h4>");
     }
 }
-out.write("\n      ");
+out.write("\r\n      ");
 {
     Object var_testvariable7 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_cards, "cardsDesc"), "html");
     if (renderContext.getObjectModel().toBoolean(var_testvariable7)) {
@@ -90,7 +90,7 @@ out.write("\n      ");
         out.write("</p>");
     }
 }
-out.write("\n    </div>\n  </div>\n</div>\n");
+out.write("\r\n    </div>\r\n  </div>\r\n</div>\r\n");
 
 
 // End Of Main Template Body ----------------------------------------------------------------------

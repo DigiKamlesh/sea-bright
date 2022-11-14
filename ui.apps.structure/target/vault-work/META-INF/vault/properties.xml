@@ -4,7 +4,7 @@
 <comment>Sea Bright - Repository Structure Package</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-11-03T04:26:05.273Z</entry>
+<entry key="created">2022-11-11T11:43:11.613Z</entry>
 <entry key="groupId">com.adobe.aem.bright</entry>
 <entry key="name">aem-guides-bright.ui.apps.structure</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.
