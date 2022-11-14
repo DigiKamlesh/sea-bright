@@ -21,14 +21,13 @@ public class JCREventListener implements EventListener{
 
     @Reference
     SlingRepository slingRepository;
-    
+       
 
     @Activate
     public void activate() throws Exception {
         try {
 
             String[] nodetypes={"cq:PageContent"};
-
             session = slingRepository.loginService("seabrighttestuser",null);
             session.getWorkspace().getObservationManager().addEventListener(
                     this,                                 //handler
