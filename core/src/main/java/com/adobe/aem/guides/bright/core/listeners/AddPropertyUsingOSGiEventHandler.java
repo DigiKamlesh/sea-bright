@@ -29,38 +29,32 @@ import org.osgi.service.event.EventHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.adobe.aem.guides.bright.core.utils.ResolverUtil;
+import com.adobe.aem.guides.bright.core.utils.Resolverutil;
 
-@Component(service = EventHandler.class,
-           immediate = true,
-           property = {
-                   EventConstants.EVENT_TOPIC + "=org/apache/sling/api/resource/Resource/ADDED",
-                   EventConstants.EVENT_TOPIC + "=org/apache/sling/api/resource/Resource/CHANGED",
-                   EventConstants.EVENT_TOPIC + "=org/apache/sling/api/resource/Resource/REMOVED",
-                   EventConstants.EVENT_FILTER +"=(path=/content/bright/us/*)"
-           })
+@Component(service = EventHandler.class, immediate = true, property = {
+		EventConstants.EVENT_TOPIC + "=org/apache/sling/api/resource/Resource/ADDED",
+		EventConstants.EVENT_TOPIC + "=org/apache/sling/api/resource/Resource/CHANGED",
+		EventConstants.EVENT_TOPIC + "=org/apache/sling/api/resource/Resource/REMOVED",
+		EventConstants.EVENT_FILTER + "=(path=/content/bright/us/*)" })
 public class AddPropertyUsingOSGiEventHandler implements EventHandler {
 
-    private static final Logger LOG = LoggerFactory.getLogger(AddPropertyUsingOSGiEventHandler.class);
+	private static final Logger LOG = LoggerFactory.getLogger(AddPropertyUsingOSGiEventHandler.class);
 
-    @Reference
-    ResourceResolverFactory resourceResolverFactory;
+	@Reference
+	ResourceResolverFactory resourceResolverFactory;
 
-    public void handleEvent(final Event event) {
-        LOG.info("\n Resource event: {} at: {}", event.getTopic(), event.getProperty(SlingConstants.PROPERTY_PATH));
-        try {
-            ResourceResolver resourceResolver=ResolverUtil.newResolver(resourceResolverFactory);
-            Resource resource=resourceResolver.getResource(event.getProperty(SlingConstants.PROPERTY_PATH).toString());
-            Node node=resource.adaptTo(Node.class);
-            node.setProperty("eventhandlertask","Event "+event.getTopic()+" by "+resourceResolver.getUserID());
-            resourceResolver.commit();
+	public void handleEvent(final Event event) {
+		LOG.info("\n Resource event: {} at: {}", event.getTopic(), event.getProperty(SlingConstants.PROPERTY_PATH));
+		try {
+			ResourceResolver resourceResolver = Resolverutil.newResolver(resourceResolverFactory);
+			Resource resource = resourceResolver
+					.getResource(event.getProperty(SlingConstants.PROPERTY_PATH).toString());
+			Node node = resource.adaptTo(Node.class);
+			node.setProperty("eventhandlertask", "Event " + event.getTopic() + " by " + resourceResolver.getUserID());
+			resourceResolver.commit();
 
-                
-            
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 }
-
