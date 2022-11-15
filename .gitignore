@@ -90,6 +90,7 @@ LICENSES-*
 dist
 
 
+ui.apps/target
 ui.config/target
 core/target
 
