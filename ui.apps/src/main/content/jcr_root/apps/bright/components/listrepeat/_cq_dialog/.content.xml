@@ -22,7 +22,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                                 fieldLabel="Author Name"
-                                name="./AuthorName"/>
+                                name="./authorname"/>
                             <well
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/well"
