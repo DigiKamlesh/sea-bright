@@ -1,9 +1,14 @@
 <sly data-sly-use.books="com.adobe.aem.guides.bright.core.models.AuthorBooks">
-    <h1>${books.authorname}</h1>
-    <div data-sly-list.item="${books.authorBooks}">
-        <p> Book : <b>${item} </b></p>
+    <h1>${books.AuthorName}</h1>
+    <div class="dataSlyList" data-sly-list.item="${books.authorBooks}">
+        <p class="dataSlyListItem"> Book : <b>${item} </b></p>
     </div>
-    <div data-sly-repeat="${books.authorBooks}">
-        <p> Book : <b>${item} </b></p>
+    <div class="spacing" style="margin-top: 50px; margin-bottom:50px;"> <b>Data sly repeat</b></div>
+    <div class="dataSlyRepeat" data-sly-repeat="${books.authorBooks}">
+        <p class="dataSlyRepeatItem"> Book : <b>${item} </b></p>
     </div>
 </sly>
+
+
+
+
