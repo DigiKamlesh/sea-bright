@@ -38,14 +38,14 @@ Object _global_banner = null;
 Object _global_template = null;
 _global_banner = renderContext.call("use", com.adobe.aem.guides.bright.core.models.Banner.class.getName(), obj());
 _global_template = renderContext.call("use", "core/wcm/components/commons/v1/templates.html", obj());
-out.write("\n\n<div class=\"aem-GridColumn aem-GridColumn--default--12 backgroundImage\"");
+out.write("\r\n\r\n<div class=\"aem-GridColumn aem-GridColumn--default--12 backgroundImage\"");
 {
     String var_attrcontent0 = (("background-image:url(" + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_banner, "image"), "styleString"))) + ")");
     out.write(" style=\"");
     out.write(renderContext.getObjectModel().toString(var_attrcontent0));
     out.write("\"");
 }
-out.write(">\n<div class=\"aem-GridColumn aem-GridColumn--default--6 bannerleft\"></div>\n<div class=\"aem-GridColumn aem-GridColumn--default--6 banner-right\">\n\t<div class=\"bannerInfo\">\n\t");
+out.write(">\r\n<div class=\"aem-GridColumn aem-GridColumn--default--6 bannerleft\"></div>\r\n<div class=\"aem-GridColumn aem-GridColumn--default--6 banner-right\">\r\n\t<div class=\"bannerInfo\">\r\n\t");
 {
     Object var_testvariable1 = renderContext.getObjectModel().resolveProperty(_global_banner, "title");
     if (renderContext.getObjectModel().toBoolean(var_testvariable1)) {
@@ -57,7 +57,7 @@ out.write(">\n<div class=\"aem-GridColumn aem-GridColumn--default--6 bannerleft\
         out.write("</h2>");
     }
 }
-out.write("\n\t");
+out.write("\r\n\t");
 {
     Object var_testvariable3 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_banner, "description"), "html");
     if (renderContext.getObjectModel().toBoolean(var_testvariable3)) {
@@ -69,7 +69,7 @@ out.write("\n\t");
         out.write("</h5>");
     }
 }
-out.write("\n</div>\n</div>\n</div>\n\n\n\n");
+out.write("\r\n</div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n");
 
 
 // End Of Main Template Body ----------------------------------------------------------------------
