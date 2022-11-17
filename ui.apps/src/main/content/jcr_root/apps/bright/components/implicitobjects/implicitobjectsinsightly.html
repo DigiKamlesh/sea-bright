@@ -1,0 +1,21 @@
+<h1>HTL Global Objects</h1>
+<h2> 1)Enumerable Objects</h2>
+<p>created By = ${properties.jcr:createdBy}</p>
+<p>Page Properties = ${pageproperties.jcr:title}</p>
+<p>Inherited Page Properties = ${inheritedpageproperties.jcr:title}</p>
+<h2> 2)Java-Backed Objects</h2>
+<p>component name = ${component.title}</p>
+<p>component context = ${componentContext.page.title}</p>
+==========================================================================================
+<p>Current Page = ${CurrentPage.pageTitle}</p>
+<p>Current Page Path = ${CurrentPage.path}</p>
+<p>Design Node = ${currentDesign.path}</p>
+<p>Current Node = ${currentNode.path}</p>
+<p>Depth of the Page= ${CurrentPage.depth}</p>   
+<p>Is that Page locked = ${CurrentPage.isLocked}</p
+==========================================================================================   
+<p>Resource = ${resource.path}</p>
+<p>Resource Page= ${resourcePage.path}</p>
+<p>Resource Design = ${resourceDesign.path}</p>
+==========================================================================================
+<p>WCM-MODE -> EDIT/PREVIEW = ${wcmmode.edit} / ${wcmmode.preview}</p>
