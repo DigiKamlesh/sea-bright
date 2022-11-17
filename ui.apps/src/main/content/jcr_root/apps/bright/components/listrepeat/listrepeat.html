@@ -1,5 +1,5 @@
-<sly data-sly-use.books="com.adobe.aem.guides.bright.core.models.AuthorBooks">
-    <h1 data-sly-test="${books.AuthorName}">${books.AuthorName}</h1>
+<sly data-sly-use.books="com.adobe.aem.guides.bright.core.models.AuthorBooks" />
+    <h1 data-sly-test="${books.Authorname}">${books.Authorname}</h1>
     <div class="dataSlyList" data-sly-list.item="${books.authorBooks}">
         <p class="dataSlyListItem"> Book : <b>${item} </b></p>
     </div>
@@ -7,8 +7,4 @@
     <div class="dataSlyRepeat" data-sly-repeat="${books.authorBooks}">
         <p class="dataSlyRepeatItem"> Book : <b>${item} </b></p>
     </div>
-</sly>
-
-
-
 

@@ -58,8 +58,9 @@ Service-Component: OSGI-INF/com.adobe.aem.guides.bright.core.filters.L
  m.guides.bright.core.listeners.SimpleResourceListener.xml,OSGI-INF/co
  m.adobe.aem.guides.bright.core.schedulers.SimpleScheduledTask.xml,OSG
  I-INF/com.adobe.aem.guides.bright.core.servlets.DemoDefaultResourceSe
- rvelet.xml,OSGI-INF/com.adobe.aem.guides.bright.core.servlets.SimpleS
- ervlet.xml
+ rvelet.xml,OSGI-INF/com.adobe.aem.guides.bright.core.servlets.SampleP
+ athServlet.xml,OSGI-INF/com.adobe.aem.guides.bright.core.servlets.Sim
+ pleServlet.xml
 Sling-Model-Classes: com.adobe.aem.guides.bright.core.models.Banner,co
  m.adobe.aem.guides.bright.core.models.Cards,com.adobe.aem.guides.brig
  ht.core.models.HelloWorldModel,com.adobe.aem.guides.bright.core.model
