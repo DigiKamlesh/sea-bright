@@ -1,0 +1,11 @@
+<sly data-sly-use.cards="com.adobe.aem.guides.bright.core.models.Cards"
+data-sly-use.template="core/wcm/components/commons/v1/templates.html" />
+<div class="cardsDesign">
+  <div class="cards-left"><img data-sly-test="${cards.cardsImage}" src="${cards.cardsImage}" alt="cards-img" /></div>
+  <div class="cards-right">
+    <div class="cards-info">
+      <h4 data-sly-test="${cards.cardsTitle @ context='html'}" class="cards-title">${cards.cardsTitle @ context='html'}</h4>
+      <p data-sly-test="${cards.cardsDesc @ context='html'}" class="cards-decsription">${cards.cardsDesc @ context='html'}</p>
+    </div>
+  </div>
+</div>
