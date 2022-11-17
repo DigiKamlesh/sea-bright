@@ -4,7 +4,7 @@
 <comment>Sea Bright - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-11-03T04:26:39.023Z</entry>
+<entry key="created">2022-11-17T07:42:13.577Z</entry>
 <entry key="groupId">com.adobe.aem.bright</entry>
 <entry key="name">aem-guides-bright.ui.config</entry>
 <entry key="description">UI config package for Sea Bright</entry>

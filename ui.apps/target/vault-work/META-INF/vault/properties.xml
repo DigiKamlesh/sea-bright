@@ -4,7 +4,7 @@
 <comment>Sea Bright - UI apps</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="dependencies-locations">adobe/cq60:core.wcm.components.content:2.17.12=maven:com.adobe.cq:core.wcm.components.content:2.17.12:zip,adobe/cq60:core.wcm.components.config:2.17.12=maven:com.adobe.cq:core.wcm.components.config:2.17.12:zip</entry>
-<entry key="created">2022-11-03T04:26:26.756Z</entry>
+<entry key="created">2022-11-17T07:41:59.495Z</entry>
 <entry key="groupId">com.adobe.aem.bright</entry>
 <entry key="description">UI apps package for Sea Bright</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>

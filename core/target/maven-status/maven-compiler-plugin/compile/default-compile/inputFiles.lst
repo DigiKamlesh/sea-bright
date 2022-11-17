@@ -1,12 +1,29 @@
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\filters\LoggingFilter.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\servlets\SimpleServlet.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\models\HelloWorldModel.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\schedulers\SimpleScheduledTask.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\models\package-info.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\schedulers\package-info.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\models\Banner.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\models\Cards.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\filters\package-info.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\listeners\SimpleResourceListener.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\listeners\package-info.java
-C:\seabright\aem-guides-bright\core\src\main\java\com\adobe\aem\guides\bright\core\servlets\package-info.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\filters\LoggingFilter.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\Author.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\impl\AuthorBooksImpl.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\listeners\package-info.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\listeners\AddPropertyUsingOSGiEventHandler.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\servlets\DemoDefaultResourceServelet.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\listeners\JCREventListener.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\schedulers\package-info.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\package-info.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\HtlSightly.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\impl\HtlSightlyImpl.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\listeners\SimpleResourceListener.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\Banner.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\listeners\PageEventHandler.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\HelloWorldModel.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\utils\Pageutil.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\services\OsgiServiceInterface.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\listeners\JCREventHandler.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\servlets\package-info.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\utils\Resolverutil.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\services\OsgiServiceImplementation.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\impl\AuthorImpl.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\filters\package-info.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\schedulers\SimpleScheduledTask.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\AuthorBooks.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\servlets\SimpleServlet.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\Cards.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\models\OsgiServiceModel.java
+C:\projects\seabright\seabright project\core\src\main\java\com\adobe\aem\guides\bright\core\utils\Constantutil.java
