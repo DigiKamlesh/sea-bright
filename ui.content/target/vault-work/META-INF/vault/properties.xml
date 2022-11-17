@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">com.adobe.aem.bright:aem-guides-bright.ui.apps:0.0.1-SNAPSHOT=maven:com.adobe.aem.bright:aem-guides-bright.ui.apps:0.0.1-SNAPSHOT:zip</entry>
-<entry key="created">2022-11-03T04:26:35.898Z</entry>
+<entry key="created">2022-11-17T06:30:42.807Z</entry>
 <entry key="groupId">com.adobe.aem.bright</entry>
 <entry key="description">UI content package for Sea Bright</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
