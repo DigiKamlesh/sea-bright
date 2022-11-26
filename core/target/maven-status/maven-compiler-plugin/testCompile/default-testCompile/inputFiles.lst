@@ -1,6 +1,6 @@
-C:\seabright\aem-guides-bright\core\src\test\java\com\adobe\aem\guides\bright\core\servlets\SimpleServletTest.java
-C:\seabright\aem-guides-bright\core\src\test\java\com\adobe\aem\guides\bright\core\listeners\SimpleResourceListenerTest.java
-C:\seabright\aem-guides-bright\core\src\test\java\com\adobe\aem\guides\bright\core\schedulers\SimpleScheduledTaskTest.java
-C:\seabright\aem-guides-bright\core\src\test\java\com\adobe\aem\guides\bright\core\filters\LoggingFilterTest.java
-C:\seabright\aem-guides-bright\core\src\test\java\com\adobe\aem\guides\bright\core\models\HelloWorldModelTest.java
-C:\seabright\aem-guides-bright\core\src\test\java\com\adobe\aem\guides\bright\core\testcontext\AppAemContext.java
+C:\1.projects\seabright\seabright project\core\src\test\java\com\adobe\aem\guides\bright\core\listeners\SimpleResourceListenerTest.java
+C:\1.projects\seabright\seabright project\core\src\test\java\com\adobe\aem\guides\bright\core\testcontext\AppAemContext.java
+C:\1.projects\seabright\seabright project\core\src\test\java\com\adobe\aem\guides\bright\core\models\HelloWorldModelTest.java
+C:\1.projects\seabright\seabright project\core\src\test\java\com\adobe\aem\guides\bright\core\schedulers\SimpleScheduledTaskTest.java
+C:\1.projects\seabright\seabright project\core\src\test\java\com\adobe\aem\guides\bright\core\filters\LoggingFilterTest.java
+C:\1.projects\seabright\seabright project\core\src\test\java\com\adobe\aem\guides\bright\core\servlets\SimpleServletTest.java

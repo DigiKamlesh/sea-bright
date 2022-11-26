@@ -3,7 +3,7 @@
 <properties>
 <comment>Sea Bright - All</comment>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-11-03T04:26:41.361Z</entry>
+<entry key="created">2022-11-26T05:36:43.132Z</entry>
 <entry key="groupId">com.adobe.aem.bright</entry>
 <entry key="name">aem-guides-bright.all</entry>
 <entry key="description">All content package for Sea Bright</entry>
